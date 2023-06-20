@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>skin care</title>
+  <link rel="stylesheet" href="../css/mystyle.css">
+</head>
+<body>
+  <svg height="120" width="100%">
+    <!-- <defs> 요소는 그래픽 객체를 정의, <def> 요소 내에서 만든 객체는 출력되는 것은 아님
+         나중에 사용하려면 fill 속성에 참조 연결하거나 <use> 요소를 이용해야함 
+         <def> 요소 내에 선형그레디언트 정의 -->
+    <defs>
+      <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:rgb(255, 55, 155);stop-opacity:1" />
+        <stop offset="100%" style="stop-color:rgb(255, 146, 228);stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <rect fill="url(#grad1)" x="0" y="0" width="100%" height="120" />
+    <text fill="#cccccc" font-size="60" font-family="Verdana" x="50" y="80">Cosmetic Cove</text>
+    Sorry, your browser does not support inline SVG.
+  </svg>
+    
+  <ul>
+    <li><a class="active" href="https://newdelee.github.io/23webproject">Home</a></li>
+    <li><a href="./html/resume.html">skincare</a></li>
+    <li><a href="./html/ulife.html">make up</a></li>
+    <li><a href="./html/portfolio.html">body</a></li>
+    <li class="Dropdown">
+      <a href="#" class="dropbtn">video</a>
+      <div class="dropdown-content" >
+        <a href="https://youtu.be/P5kApUJ1X6Q">메이크업1</a>
+        <a href="https://youtu.be/ZlF94d6V3IM">메이크업2</a>
+        <a href="https://youtu.be/qI8HdGAhOrw">스킨케어</a>
+      </div>
+    </li>
+  </ul>
+
+      <article>
+        <h1>닥터지 레드 블레미쉬 클리어 크림</h1>
+    
+        <p>민감 피부 진정</p>
+        <p>수분 충전</p>
+        <p>저자극 수딩 젤 크림</p>
+    
+        <h2>이럴 때 사용해보세요!</h2>
+        <p>민감해진 피부에 진정이 필요할 때!</p>
+        <p>지친 피부에 수분 충전이 필요할 때!</p>
+        <p>저자극 수분크림을 찾고있을 때!</p>
+
+        <p>산뜻한 수딩 젤 제형이 피부에 편안하게 흡수되어 오래도록 촉촉한 피부를 완성시켜줘요.</p>
+    
+        <h3>사용 후기</h3>
+        <p>피부에 각질이 올라오고 건조함이 자주 느껴지는 피부였는데 꾸준히 이 제품을 발라주니까 건조함도 사라지고 각질도 싹 사라졌어요! 밤에는 수분크림을 듬뿍 발라주면 아침에 화장도 잘 먹고 피부가 광이 나는 것을 느낄 수 있어요!</p>
+      </article>
+      <aside> 
+        <img src="../image/skincare.jpg" alt="스킨케어 제품" style="width:420px; height:400px;"/>
+      </aside>
+</body>
+</html>
